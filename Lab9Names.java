@@ -39,16 +39,16 @@ public class Lab9Names{
             tokens = strin.split(delim);
 
             // load the data into arrays
-            
-                names[n] = tokens[0];
-                n1[n] = Integer.parseInt(tokens[1]);
-                n2[n] = Integer.parseInt(tokens[2]);
-                n3[n] = Integer.parseInt(tokens[3]);
-                
-                // count the record added
-                System.out.println("Record added.");
-                n++;
-                       
+
+            names[n] = tokens[0];
+            n1[n] = Integer.parseInt(tokens[1]);
+            n2[n] = Integer.parseInt(tokens[2]);
+            n3[n] = Integer.parseInt(tokens[3]);
+
+            // count the record added
+            System.out.println("Record added.");
+            n++;
+
         }//end while
 
         // print the arrays
